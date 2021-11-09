@@ -109,8 +109,6 @@ public class CartServicesImplementation implements CartServices {
             cartOptional.get().setTotalCost(totalCost);
         }
 
-
-
         return cartOptional.get();
     }
 }
